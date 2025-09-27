@@ -1,0 +1,10 @@
+# Basic
+fastapi==0.115.12
+uvicorn==0.34.2
+pydantic==2.11.4
+strands-agents
+strands-agents-tools
+
+# Additional
+python-dotenv
+'strands-agents[litellm]'
