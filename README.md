@@ -1,3 +1,24 @@
+# 🧵 Strands Agents – Carbon Footprint API
+
+This repository contains a **FastAPI application** powered by [Strands Agents](https://strandsagents.com/) for analyzing the **carbon footprint of architectural projects**.  
+
+The agent integrates **Google Gemini** (via LiteLLM) with Strands’ session and conversation management to provide structured, actionable sustainability insights.  
+
+The AI agent can:
+- Extract project details (type, location, materials, energy systems, water/waste management, etc.)
+- Estimate carbon footprint across lifecycle stages:
+  - **Embodied carbon** (materials, transport, construction)  
+  - **Operational carbon** (energy and water use during building life)  
+  - **End-of-life carbon** (demolition, disposal, recycling potential)  
+- Return structured outputs with:
+  - Total estimated footprint (kgCO₂e / tCO₂e)  
+  - Lifecycle breakdown  
+  - Key emission drivers  
+  - Suggested mitigation strategies (e.g., low-carbon concrete, passive design, renewables)  
+
+The API exposes both **synchronous** and **streaming** endpoints for real-time interaction, making it suitable for integration into dashboards, design tools, or research workflows.
+
+
 # Setup / Usage
 
 1 - Create Virtual Environment `python -m venv .venv`

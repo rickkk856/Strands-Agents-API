@@ -7,4 +7,4 @@ strands-agents-tools
 
 # Additional
 python-dotenv
-'strands-agents[litellm]'
+strands-agents[litellm]
